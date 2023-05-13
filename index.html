@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TCTC Little Game</title>
+  <style>
+    /* CSS to style the image grid, center the title, and add background color */
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    
+    header {
+      position: fixed; /* Add position fixed */
+      top: 0; /* Position at the top */
+      width: 100%; /* Occupy full width */
+      z-index: 999; /* Ensure it's on top of other elements */
+      background-color: #333;
+      color: #fff;
+      padding: 20px 30px;
+      font-size: 20px;
+      text-align: center; /* Center align the text horizontally */
+    }
+    
+    .image-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      width: 100%;
+      margin-top: 120px; /* Add margin-top to create space below the fixed header */
+    }
+    
+    .image-box {
+      text-align: center;
+      margin: 0 10px;
+    }
+    
+    .image-box img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+    
+    .image-name {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    
+    .image-description {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TCTC 小遊戲</h1>
+  </header>
+  
+  <div class="image-container">
+    <div class="image-box">
+      <a href="https://editor.p5js.org/tccct/full/91IPVhCC-" target="_blank"><img src="image/game1.png" alt="Image 1"></a>
+      <div class="image-name"><a href="https://editor.p5js.org/tccct/full/91IPVhCC-" target="_blank">Lttle Mari0 game</a></div>
+      <div class="image-description">Description for Image 1</div>
+    </div>
+    <div class="image-box">
+      <a href="https://editor.p5js.org/tccct/full/91IPVhCC-" target="_blank"><img src="image/game1.png" alt="Image 2"></a>
+      <div class="image-name"><a href="https://editor.p5js.org/tccct/full/91IPVhCC-" target="_blank">Image 2</a></div>
+      <div class="image-description">Description for Image 2</div>
+    </div>
+    <div class="image-box">
+      <a href="https://editor.p5js.org/tccct/full/91IPVhCC-" target="_blank"><img src="image/game1.png" alt="Image 3"></a>
+      <div class="image-name"><a href="https://editor.p5js.org/tccct/full/91IPVhCC-" target="_blank">Image 3</a></div>
+      <div class="image-description">Description for Image 3</div>
+    </div>
+  </div>
+  
+  <!-- Add more image containers as needed -->
+  
+</body>
+</html>
